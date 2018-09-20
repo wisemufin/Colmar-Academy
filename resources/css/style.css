@@ -64,11 +64,14 @@ nav a {
 .container {
   display: flex;
   align-items: center;
-  background-color: #D7D7D7;
   flex-wrap: nowrap;
 }
 
-.banner {
+#first-banner {
+  background-color: #D7D7D7;
+}
+
+.left-column {
   margin: 2rem 1.5rem;
   width: 60%;
   height: 50rem;
@@ -80,22 +83,35 @@ nav a {
   height: 100%;
 }
 
-.banner-text {
+.right-column {
   width: 40%;
   display: flex;
-  padding: 5rem;
   flex-direction: column;
   justify-content: center;
+}
+
+.banner-text h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 1rem;
+  padding-bottom: .5rem;
+}
+
+.banner-text h2 {
+  font-size: 2rem;
+  padding: 1rem;
 }
 
 .button {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: .5rem 1rem;
+  padding: .75rem 1rem;
   width: 30%;
-  border: 1px solid black;
+  border-radius: 2px;
   background-color: #4B4B4B;
+  margin-left: 1rem;
+  margin-top: 1rem;
 }
 
 .button span {
