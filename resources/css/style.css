@@ -74,18 +74,20 @@ nav a {
 .left-column {
   margin: 2rem 1.5rem;
   width: 60%;
-  height: 50rem;
-  position: relative;
+  height: auto;
 }
 
 .banner img{
-  width: auto;
-  height: 100%;
+  width: 100%;
+  height: auto;
 }
 
 .right-column {
   width: 40%;
   display: flex;
+}
+
+.banner-text {
   flex-direction: column;
   justify-content: center;
 }
@@ -117,3 +119,5 @@ nav a {
 .button span {
   color: white;
 }
+
+/* SECOND SECTION */
