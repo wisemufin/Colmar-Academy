@@ -1,0 +1,91 @@
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+  src: url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+}
+
+html {
+  font-size: 16px;
+  font-family: "Open Sans";
+}
+
+header {
+  background-color: white;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+body {
+  margin: 0;
+}
+
+/* LOGO PART OF NAVIGATION BAR */
+.logo {
+  display: flex;
+  height: 2rem;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1.5rem;
+}
+
+.logo img {
+  height: 2.5rem;
+}
+
+.logo span {
+  font-size: 1.5rem;
+}
+
+.logo .colmar {
+  font-weight: 700;
+}
+
+.academy {
+  font-weight: 300;
+}
+
+/* RIGHT SIDE OF NAVIGATION BAR */
+nav span {
+  margin: 0 1rem;
+}
+
+nav {
+  margin-right: .5rem;
+}
+
+nav a {
+  font-weight: 400;
+}
+
+/* BANNER */
+
+.container {
+  display: flex;
+  align-items: center;
+  background-color: #D7D7D7;
+}
+
+.banner {
+  margin: 2rem 1.5rem;
+  width: 60%
+}
+
+.banner img{
+  /* width: 60%; */
+}
+
+.banner-text {
+  width: 40%;
+  height: auto;
+  display: block;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+}
