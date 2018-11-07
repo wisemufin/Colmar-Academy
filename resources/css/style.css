@@ -364,7 +364,7 @@ footer {
   }
 
   .mobile-body {
-    padding: 1rem;
+    padding: 2rem 1rem;
     background-color: #F3F5F5;
   }
 
@@ -390,3 +390,30 @@ footer {
   .mobile-body-text #link {
     color: #65A0E6;
   }
+
+  /* SECOND SECTION OF MOBILE BODY */
+.border {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+.mobile-buttons h2{
+  font-weight: bold;
+  color: #4B4B4B;
+  background-color: #D8D8D8;
+  margin: .5rem;
+  padding: 1rem 0 1rem 1rem;
+}
+
+.title {
+  margin: 0 auto 1rem auto;
+  text-align: center;
+}
+
+.mobile-body video {
+  width: 100%
+}
+
+.mobile-body p {
+  margin-top: 2.5rem;
+}
