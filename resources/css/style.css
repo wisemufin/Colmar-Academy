@@ -303,11 +303,11 @@ footer {
 
 
 /* MOBILE SITE */
-/* @media only screen and (max-width: 470px) {
+@media only screen and (max-width: 470px) {
   nav, .logo, .container, #first-banner, .container-second-section, .container-third-section, #solo-header, footer{
     display: none;
   }
-} */
+}
 
 /* MOBILE NAV */
   header {
