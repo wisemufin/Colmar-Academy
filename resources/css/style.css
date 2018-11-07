@@ -262,6 +262,7 @@ nav a {
   line-height: 1.5rem;
 }
 
+/* FOURTH SECTION */
 #image-padding {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -280,4 +281,22 @@ nav a {
   padding-top: 2rem;
   text-align: center;
   background-color: #F3F5F5;
+}
+
+/* FOOTER */
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  border-top: 1px solid lightgray;
+  background-color: #F3F5F5;
+  color: #4B4B4B;
+}
+
+.footer-right {
+  display: inline-flex;
+}
+
+.footer-right p {
+  padding: 0 1rem;
 }
