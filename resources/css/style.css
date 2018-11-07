@@ -208,3 +208,34 @@ nav a {
 #gray {
   background-color: #D7D7D7;
 }
+
+/* THIRD SECTION*/
+.container-third-section {
+  color: #4B4B4B;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container-third-section h1 {
+  margin: 2rem auto;
+  display: block;
+}
+
+.course-grid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 4.5rem;
+  padding-right: 4.5rem;
+  padding-bottom: 2rem;
+}
+
+.course {
+  margin-top: 2rem;
+}
+
+.course img {
+  height: auto;
+}
