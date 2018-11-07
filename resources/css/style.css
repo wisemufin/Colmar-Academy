@@ -3,6 +3,12 @@
   src: url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
 }
 
+@media only screen and (min-width: 480px) {
+  .mobile-nav, .mobile-banner, .main-content, .border {
+    display: none;
+  }
+
+
 html {
   font-size: 16px;
   font-family: "Open Sans";
@@ -300,14 +306,14 @@ footer {
 .footer-right p {
   padding: 0 1rem;
 }
-
+}
 
 /* MOBILE SITE */
 @media only screen and (max-width: 470px) {
-  nav, .logo, .container, #first-banner, .container-second-section, .container-third-section, #solo-header, footer{
+  header, .logo, .container, #first-banner, .container-second-section, .container-third-section, #solo-header, footer{
     display: none;
   }
-}
+
 
 /* MOBILE NAV */
   header {
@@ -417,5 +423,7 @@ footer {
 
 .mobile-body p {
   margin-top: 1rem;
+
+}
 
 }
