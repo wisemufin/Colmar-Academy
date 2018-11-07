@@ -153,6 +153,7 @@ nav a {
   flex-wrap: nowrap;
   color: #4B4B4B;
   background-color: #F3F5F5;
+  padding-bottom: 2rem;
 }
 
 /* .information-column {
@@ -211,7 +212,7 @@ nav a {
 
 /* THIRD SECTION*/
 .container-third-section {
-  color: #4B4B4B;
+  background-color: #EAEBEC;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -219,13 +220,13 @@ nav a {
 }
 
 .container-third-section h1 {
-  margin: 2rem auto;
+  margin: 2rem auto 0 auto;
   display: block;
 }
 
 .course-grid {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   padding-left: 4.5rem;
   padding-right: 4.5rem;
@@ -234,8 +235,18 @@ nav a {
 
 .course {
   margin-top: 2rem;
+  margin-right: 2rem;
+  background-color: white;
 }
 
 .course img {
   height: auto;
+}
+
+#h2-course {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-top: 1rem;
+  padding-bottom: .5rem;
+  padding-left: 1rem;
 }
