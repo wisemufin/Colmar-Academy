@@ -217,6 +217,7 @@ nav a {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  color: #4B4B4B;
 }
 
 .container-third-section h1 {
@@ -249,4 +250,12 @@ nav a {
   padding-top: 1rem;
   padding-bottom: .5rem;
   padding-left: 1rem;
+}
+
+.course h3 {
+  padding: .5rem 0 .5rem 1rem;
+}
+
+#course-information {
+  padding: .5rem 0 1.5rem 1rem;
 }
