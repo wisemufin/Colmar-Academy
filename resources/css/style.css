@@ -307,6 +307,7 @@ footer {
   nav, .logo, .container, #first-banner, .container-second-section, .container-third-section, #solo-header, footer{
     display: none;
   }
+}
 
 /* MOBILE NAV */
   header {
