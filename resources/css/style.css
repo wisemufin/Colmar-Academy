@@ -300,3 +300,122 @@ footer {
 .footer-right p {
   padding: 0 1rem;
 }
+
+
+/* MOBILE SITE */
+/* @media only screen and (max-width: 470px) {
+  nav, .logo, .container, #first-banner, .container-second-section, .container-third-section, #solo-header, footer{
+    display: none;
+  }
+} */
+
+/* MOBILE NAV */
+  header {
+    width: 100%;
+  }
+
+  .mobile-nav {
+    margin: auto;
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+/* MOBILE BANNER */
+  .mobile-banner {
+    width: 100%;
+    background-color: #DBDBDB;
+    color: #4B4B4B;
+  }
+
+  .mobile-banner img {
+    width: 100%;
+    height: auto;
+  }
+
+  .mobile-banner-text {
+    padding: 2rem 1rem .5rem 1rem;
+  }
+
+  .mobile-banner-text h1 {
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+    font-weight: bolder;
+  }
+
+  .mobile-banner-text h2 {
+    line-height: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+  }
+
+  .mobile-button {
+    color: white;
+    background-color: #9B9B9B;
+    text-align: center;
+    padding: 1rem 2rem;
+  }
+
+/* MOBILE BODY SECTION */
+  .main-content {
+    width: 100%;
+  }
+
+  .mobile-body {
+    padding: 2rem 1rem;
+    background-color: #F3F5F5;
+  }
+
+  .mobile-body img {
+    width: 100%;
+  }
+
+  .mobile-body-text {
+    padding: 1rem 0 0 1rem;
+    color: #4B4B4B;
+  }
+
+  .mobile-body-text h2 {
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+
+  #second-h3 {
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .mobile-body-text #link {
+    color: #65A0E6;
+  }
+
+  /* SECOND SECTION OF MOBILE BODY */
+.border {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+.mobile-buttons h2{
+  font-weight: bold;
+  color: #4B4B4B;
+  background-color: #D8D8D8;
+  margin: .5rem;
+  padding: 1rem 0 1rem 1rem;
+}
+
+.title {
+  margin: 0 auto 1rem auto;
+  text-align: center;
+}
+
+.mobile-body video {
+  width: 100%
+}
+
+.mobile-body p {
+  margin-top: 1rem;
+
+}
